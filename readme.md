@@ -20,3 +20,9 @@ execMap-设置运行服务的后缀名与对应的命令
 表示使用 nodemon 代替 node 
 watch-监听哪些文件的变化，当变化的时候自动重启 
 ext-监控指定的后缀文件名
+
+cnpm install -g pkg
+
+pkg . --out-path "./build"
+
+打包存放到build文件夹内

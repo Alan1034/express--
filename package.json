@@ -16,5 +16,14 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
+  },
+  "bin": "./bin/www",
+  "pkg": {
+    "scripts": [
+      "build/**/*.js"
+    ],
+    "assets": [
+      "views/**/*"
+    ]
   }
 }
